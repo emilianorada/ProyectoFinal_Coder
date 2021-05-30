@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="GhostNet Servicios de Telecomunicaciones">	<!--Descripcion de la pagina-->
+	<title>Contacto</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com"><!--Para la fuente-->
+	<link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet"><!--Para la fuente-->
+	<link rel="stylesheet" type="text/css" href="estilo.css"><!--Linkeo al css-->
+	<link rel="stylesheet" type="text/css" href="estilo_contacto.css"><!--Linkeo al css-->
+</head>
+
+
+<body>
+
+	<div class="grid-contacto"> 
+
+		<div class="item1">		<!--la clase item1 es la que da estilo a la barra de navegación--> 
+			<nav>	<!--Barra de navegación-->
+				<a href="index.html"><img src="imagenes/ghostnetisotipo.png" height="60px" width="60px"></a>
+				<!--(Enlace al inicio, desde la imagen del logo)-->
+				<ul>	<!--Lista sin orden, cuyos elementos son cada li-->			
+					<div class="alineo-derecha">	<!--Mueve cada sección del menú hacia la derecha-->	
+						<li><a href="index.html">Inicio</a></li>
+						<li><a href="nosotros.html">Nosotros</a></li>
+						<li><a href="areas.html">Areas de cobertura</a></li>
+						<li><a href="contacto.html">Contacto</a></li>
+						<li><a href="tienda.html">Tienda</a></li>
+					</div>
+				</ul>			
+			</nav>			
+		</div>
+
+		
+
+		<div class="item2"> 		<!-- -->
+			<div class="form" >		<!--Formulario -->			
+				<form method="post" action="#">
+					<fieldset>
+							<legend>Contáctenos</legend>					
+							<br>
+							<br>
+							<!--Ingreso de Nombre-->
+							<label for="nombre">Nombre</label>
+							<input id="nombre"   name="nombre" type="text" required="">
+							<br>
+							<br>
+							<!--Ingreso de Apellido-->
+							<label for="apellido">Apellido</label>       
+							<input id="apellido"  name="apellido" type="text" required="">
+							<br>
+							<br>
+							<!--Ingreso de email-->
+							<label for="email">e-mail</label>
+							<input id="email" name="email" type="email" required="">
+							<br>
+							<br>
+							<br>
+							<hr>
+							<br>
+							<label for="notificaciones">Quiero recibir novedades por email</label>
+							<input type="checkbox" name="notificaciones">
+							<br>
+							<br>
+							<hr>
+							<br>
+							<!--Seleccion de opcion, con menu desplegable-->
+							<label for="opcionconsulta">Motivo de su consulta</label><!--El valor del atributo “for” debe ser = al valor del atributo id o name del elemento-->
+							<select name="opcionconsulta" id=opcionconsulta>
+								<option value="Productos">Servicios</option>
+								<option value="Servicios">Productos</option>
+								<option value="Soporte Tecnico">Soporte Tecnico</option>
+							</select>		
+							<br>
+							<br>
+							<textarea name="comentarios" id="comentarios" placeholder="Ingrese su comentario" cols="35"rows="8"></textarea>	<!--Campo para comentarios-->
+							<br>
+							<input type="submit" id="enviar" value="ENVIAR" name="">	<!--Boton enviar-->
+							<input type="reset" name="reset" value="Resetear formulario">	<!--Resetear-->
+							<br>
+							<br>					
+							<br>
+							<br>
+					</fieldset>
+				</form>
+			</div>			
+		</div>
+
+		<div class="item3">
+			<br>
+			<br>
+			<br>
+			<br>
+			<p>Telefono 99999999</p>
+			<br>
+			<hr>
+			<br>
+			<p>WhatsApp +5499999999</p>
+			<br>
+			<hr>
+			<br>
+			<p>Direccion</p>
+			<br>
+			<hr>
+			<br>
+			<p>correo@electronico</p>
+			<br>
+			<hr>
+
+		</div>	
+
+		
+
+
+		<div class="item4">
+			<p><a href="terminos.html">Terminos y condiciones</a>			© 2021 GhostNet es una marca registrada y su isologotipo posee Copyright|   </p> 
+		</div>
+
+	</div>	
+
+</body>
+</html>	

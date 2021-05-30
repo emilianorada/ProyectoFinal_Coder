@@ -1,0 +1,151 @@
+/*---------------------------------------------Estilo por defecto para todo el contenido ----------------------------------------------*/
+*{									
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Arvo', serif;
+}/*------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+/*-----------------Especifico estilo del contenedor grid de 4x4, el cual corresponde al body completo(html areas)---------------------*/
+.grid-tienda{			
+	display: grid;
+	width: 100%;
+	background-color: #9ACAEB;
+	grid-template-areas: 
+	"header"
+	"main"	
+	"footer";
+}/*------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+/*--------------------------La clase item1 es la que da estilo a la barra de navegación------------------------------------------------*/ 
+.item1{								
+	grid-area: header;				/* con grid-area indico que el area llamada header corresponde a la barra de navegacion, porque en */
+	background-color: #071C2C;		/*	la clase anterior,con grid-template-areas, indiqué que las 4 celdas de la fila 1, serían el nav */
+	height: 62px;
+	width: 100%; 
+	position: fixed;	
+}/*------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*------------------------------Especifico propiedades de la imagen(logo) que está dentro del nav -------------------------------------*/ 
+.item1 img{						
+	position: fixed;
+	left: 3%;
+	display: inline-block;
+}/*------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*------------------------------Estilo para los list items ----------------------------------------------------------------------------*/
+.item1 ul li{					
+	display: inline-block;
+	list-style: none;
+	padding: 20px;
+}/*-------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*---------------------------------------------Estilo para los enlaces------------------------------------------------------------------*/
+.item1 ul li a{					
+	color: #9ACAEB;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 15px;	
+}/*------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*--------------------------------Estilo para cuando pasa el cursor por el enlace------------------------------------------------------*/
+.item1 ul li a:hover{			
+	background-color: #0a447a;
+	padding: 23px;
+	margin-bottom: 10px;
+}/*------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+/*----------------------Estilo para el area debajo del nav, son los elementos de la tienda. se lo llamó main--------------------------*/
+.item2{					
+	grid-area: main;
+	background-color:#9ACAEB;
+	margin-top: 62px;
+	width: 100%;
+	min-height: 650px;
+}/*-----------------------------------------------------------------------------------------------------------------------------------*/
+
+/*----------------------------------Estilo para los h1 pertenecientes a item2---------------------------------------------------------*/
+.item2 h1{
+	padding-left: 35px;
+	padding-top: 35px;
+}/*-----------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+/*----------------------------------------contenedor flexible------------------------------------------------------------------------*/
+.flex-container{				
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	background-color:#9ACAEB;
+	align-items: flex-start;
+	align-content: center;	
+	
+}/*-----------------------------------------------------------------------------------------------------------------------------------*/		
+
+
+/*------------------------------------elementos del contenedor flexible-------------------------------------------------------------- */
+.flex-container div{				
+	background-color: #071C2C;
+	color: #9ACAEB;
+	width: 20%;
+	height: 200px;
+	text-align: center;
+	margin: 20px;
+	line-height: 100px;
+	font-size: 30px;
+	border: 3px solid brown;
+	flex-grow: 0;
+}/*----------------------------------------------------------------------------------------------------------------------------------*/
+/*flex se usó en la pestaña tienda donde cada producto es un flexitem,y el otro lugar donde es utilizado es en el index, al final   */
+
+
+
+
+
+/*-----------------------------------------------------footer-------------------------------------------------------------------------*/
+.item3{			
+	grid-area: footer;
+	padding: 35px;
+	height: 3vh;
+}/*-----------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+/*---------------------------------Alineamiento a la derecha, se usa sólo para el nav--------------------------------------------------*/
+.alineo-derecha{
+	float: right; 		
+}/*------------------------------------------------------------------------------------------------------------------------------------*/		
+
+
+/*---------------------------------Alineamiento a la izquierda, se usa sólo en el nav--------------------------------------------------*/
+.alineo-izquierda{	
+	padding: 20px;
+	float: left; 			
+}/*------------------------------------------------------------------------------------------------------------------------------------*/		
+
+/*---------------------------------Alineamiento a la izquierda, se usa sólo en el nav--------------------------------------------------*/
+.alineo-izquierda a{	
+	left: 7.5%;
+	position: fixed;
+	text-decoration: none;
+	color: #9ACAEB;
+	font-size: 15px;
+}/*------------------------------------------------------------------------------------------------------------------------------------*/
+
