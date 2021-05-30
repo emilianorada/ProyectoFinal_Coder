@@ -9,7 +9,7 @@
 
 
 /*-----------------Especifico estilo del contenedor grid de 4x4, el cual corresponde al body completo(html areas)---------------------*/
-.grid-tienda{			
+.grid-areas{			
 	display: grid;
 	width: 100%;
 	background-color: #9ACAEB;
