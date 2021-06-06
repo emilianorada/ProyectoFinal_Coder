@@ -1,77 +1,229 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">	<!--activado,posibilita que el contenido se adapte al ancho-->
-	<meta name="description" content="GhostNet Servicios de Telecomunicaciones">	<!--Descripcion de la pagina-->
-	<title>GhostNet Telecomunicaciones</title>
-	<link rel="preconnect" href="https://fonts.gstatic.com">	<!--Para la fuente-->
-	<link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet"> <!--Para la fuente-->
-	<link rel="stylesheet" type="text/css" href="estilo.css"> 	<!--Linkeo al css-->
-</head>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="estilo.css"><!--Linkeo al css-->
+
+    <title>GhostNet</title>
+  </head>
+
+  
+  <body>
+ 
+    <nav class="navbar  navbar-expand-lg  navbar-expand-md navbar-expand-sm bg-#071C2C justify-content-end"  >
+  <div class="container-fluid" >
+    
+    <a class="navbar-brand" href="index.html" >
+      <img src="imagenes/ghostnetisotipo.png" alt="" width="35" height="35" class="d-inline-block align-text-top"> GhostNet
+    </a>
+
+   <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>-->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent" > 
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html" >Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="nosotros.html">Nosotros</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="tienda.html">Tienda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="areas.html">Areas de cobertura</a>
+        </li>
+
+          </ul>      
+                  <!--<form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>-->
+                  <!--<li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown</a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li>-->
+    </div>
+  </div>
+</nav>
 
 
-<body>
-	<div class="grid-container"> 
-
-		<div class="item1">		<!--la clase item1 es la que da estilo a la barra de navegación--> 
-			<nav>	<!--Barra de navegación-->
-				<a href="index.html"><img src="imagenes/ghostnetisotipo.png" height="60px" width="60px"></a>
-				<!--(Enlace al inicio, desde la imagen del logo)-->
-				<ul>	<!--Lista sin orden, cuyos elementos son cada li-->			
-					<div class="alineo-derecha">	<!--Mueve cada sección del menú hacia la derecha-->	
-						<li><a href="index.html">Inicio</a></li>
-						<li><a href="nosotros.html">Nosotros</a></li>
-						<li><a href="areas.html">Areas de cobertura</a></li>
-						<li><a href="contacto.html">Contacto</a></li>
-						<li><a href="tienda.html">Tienda</a></li>
-					</div>
-				</ul>			
-			</nav>			
-		</div>
 
 
 
-		<div class="item2">
-			<img src="imagenes/logotipo_final.jpg" height="600px" width="100%" >	<!--Inserción de imagen-->
-		</div>
+<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class="active" aria-current="true"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></svg>
+
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Example headline.</h1>
+            <p>Some representative placeholder content for the first slide of the carousel.</p>
+            <p><a class="btn btn-lg btn-primary" href="https://getbootstrap.com/docs/5.0/examples/carousel/#">Sign up today</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="imagenes/logotipofinal.jpg" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></svg>
+
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Another example headline.</h1>
+            <p>Some representative placeholder content for the second slide of the carousel.</p>
+            <p><a class="btn btn-lg btn-primary" href="https://getbootstrap.com/docs/5.0/examples/carousel/#">Learn more</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item active">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></svg>
+
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>One more for good measure.</h1>
+            <p>Some representative placeholder content for the third slide of this carousel.</p>
+            <p><a class="btn btn-lg btn-primary" href="https://getbootstrap.com/docs/5.0/examples/carousel/#">Browse gallery</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 
 
 
 
-		<div class="item3">					
-				<article>
-						<h2>En este sector irá </h2>
-						<h4>un poco De información  </h4>
-						<p>sobre los <em>servicios ofrecidos</em> y las <em>capacidades</em> de la empresa.</p>
-						<br>								
-						<br>
-						<p> Lorem ipsum dolor sit amet consectetur adipisicing, elit. Quas molestiae magnam aspernatur. Eum quod minus ullam nisi incidunt aperiam unde error ab ut quia. Perferendis dolore, doloremque praesentium consequatur animi. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non corrupti vitae nam, expedita error asperiores rem maxime similique maiores blanditiis aperiam doloremque sint quasi accusantium? Cupiditate excepturi labore, quia a!. Lorem ipsum, dolor sit amet consectetur, adipisicing elit. Quisquam assumenda molestias harum illum saepe perspiciatis ipsam explicabo sunt aliquid voluptatem! Blanditiis rerum reiciendis non ab deserunt necessitatibus natus, beatae atque. Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Atque mollitia ea odit architecto vel corrupti dolorem ipsa molestias omnis ad reiciendis saepe harum, iure perspiciatis minima placeat est praesentium. Itaque!</p>
-						<br>
-				</article>		
-		</div>
-				
 
-		<div class="item4">		
-			<div class="flex-container">
-				<div>Bloque con informacion 1</div>
-				<div>Bloque con informacion 2</div>
-				<div>Bloque con informacion 3</div>
-				<div>Bloque con informacion 4</div>	
-			</div>		
-			<br>
-			<br>
-		</div>	
+<!--
+    
+    <div id="carouselExampleIndicators" class="carousel slide" >
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="imagenes/logotipo_final.jpg" class="d-block w-100" alt="" height="520px">
+    </div>
+    <div class="carousel-item">
+      <img src="imagenes/2.jpg" class="d-block w-100" alt="..." height="520px">
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="..." height="520px">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+-->
+
+  
 
 
 
-		<div class="item5">
-			<p><a href="terminos.html">Terminos y condiciones</a>			© 2021 GhostNet es una marca registrada y su isologotipo posee Copyright|   </p> 
-		</div>
-		
-		
-	</div>	
 
-</body>
+    <div class="item3">         
+        <article>
+            <h2>En este sector irá </h2>
+            <h4>un poco De información  </h4>
+            <p>sobre los <em>servicios ofrecidos</em> y las <em>capacidades</em> de la empresa.</p>
+            <br>                
+            <br>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing, elit. Quas molestiae magnam aspernatur. Eum quod minus ullam nisi incidunt aperiam unde error ab ut quia. Perferendis dolore, doloremque praesentium consequatur animi. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non corrupti vitae nam, expedita error asperiores rem maxime similique maiores blanditiis aperiam doloremque sint quasi accusantium? Cupiditate excepturi labore, quia a!. Lorem ipsum, dolor sit amet consectetur, adipisicing elit. Quisquam assumenda molestias harum illum saepe perspiciatis ipsam explicabo sunt aliquid voluptatem! Blanditiis rerum reiciendis non ab deserunt necessitatibus natus, beatae atque. Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Atque mollitia ea odit architecto vel corrupti dolorem ipsa molestias omnis ad reiciendis saepe harum, iure perspiciatis minima placeat est praesentium. Itaque!</p>
+            <br>
+        </article>    
+    </div>
+        
+
+    <div class="item4">   
+      <div>Bloque con informacion 1</div>
+        <div>Bloque con informacion 2</div>
+        <div>Bloque con informacion 3</div>
+        <div>Bloque con informacion 4</div> 
+      </div>    
+      <br>
+      <br>
+    
+
+
+
+    <div class="item5">
+      <p><a href="terminos.html">Terminos y condiciones</a>     © 2021 GhostNet es una marca registrada y su isologotipo posee Copyright|   </p> 
+    </div>
+    
+    
+  </div>  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+  </body>
 </html>
