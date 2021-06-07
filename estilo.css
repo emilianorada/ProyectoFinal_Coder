@@ -23,12 +23,12 @@ body{
 }
 
 
-
 .item5 {
 	padding: 35px;
 	padding: 50px;
 	color: #071C2C;
 }
+
 
 
 .carousel-item{
@@ -47,8 +47,8 @@ body{
 
 .imgnormalizada img {
   width: auto;
-  height: 500px;
-  max-height: 700px;
+  height: 550px;
+  max-height: 800px;
 }
 
 .row{
