@@ -22,11 +22,7 @@ body{
 	color: #071C2C;
 }
 
-.item4 {
-	padding: 35px;
-	padding: 50px;
-	color: #071C2C;
-}
+
 
 .item5 {
 	padding: 35px;
@@ -35,3 +31,26 @@ body{
 }
 
 
+.carousel-item{
+	/*height: 32rem;*/
+	background: #777;
+	color: white;
+	position: relative;
+	background-position: center;
+	background-size: cover;
+
+
+	height: 65vh;
+ 	min-height: 300px;
+}
+
+
+.imgnormalizada img {
+  width: auto;
+  height: 500px;
+  max-height: 700px;
+}
+
+.row{
+	padding-top: 50px;
+}
