@@ -1,0 +1,85 @@
+/*---------------------------------------------Estilo por defecto para todo el contenido ----------------------------------------------*/
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Arvo', serif;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+body {
+  background-color: #9ACAEB;
+}
+
+.navbar {
+  background: #071C2C;
+}
+
+.nav-link {
+  color: #9ACAEB;
+}
+
+.navbar-brand {
+  color: #9ACAEB;
+}
+
+.carousel-item {
+  /*height: 32rem;*/
+  background: #777;
+  color: white;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  height: 65vh;
+  min-height: 300px;
+}
+
+.imgnormalizada img {
+  width: auto;
+  height: 550px;
+  max-height: 800px;
+}
+
+.row {
+  padding-top: 50px;
+}
+
+/*---------------------------------------------Estilo por defecto para todo el contenido ----------------------------------------------*/
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Arvo', serif;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------Estilo para formulario ----------------------------------------------------------------*/
+form {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+forminput {
+  width: 100%;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------Estilo por defecto para todo el contenido ----------------------------------------------*/
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Arvo', serif;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------Estilo por defecto para todo el contenido ----------------------------------------------*/
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Arvo', serif;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+h1 {
+  padding: 35px;
+}
+/*# sourceMappingURL=main.css.map */
