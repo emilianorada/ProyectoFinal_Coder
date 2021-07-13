@@ -26,31 +26,35 @@ body{
 }
 
 
-
-
-
-.carousel-item{
-	/*height: 32rem;*/
-	background: #777;
-	color: white;
-	position: relative;
-	background-position: center;
-	background-size: cover;
-
-
-	height: 65vh;
- 	min-height: 300px;
-}
-
-
-.imgnormalizada img {
-  width: auto;
-  height: 550px;
-  max-height: 800px;
-}
-
 .row{
 	padding-top: 50px;
 }
 
 
+#carouselExampleIndicators .carousel-control-prev-icon, .carousel-control-next-icon{
+	background-color: #071C2C;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	opacity: .9;
+}
+
+
+
+.carousel-item{
+	background-color: #9ACAEB;
+	color: white;
+	position: relative;
+	background-position: center;
+ 	min-height: 300px;
+}
+
+
+.carousel-inner{
+	height: 80vh;
+}
+
+.imgnormalizada img {
+  width: 100%;
+  height: 80vh;
+}
