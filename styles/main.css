@@ -31,7 +31,7 @@ body {
 }
 
 .row {
-  padding-top: 50px;
+  padding-top: 25px;
 }
 
 #carouselExampleIndicators .carousel-control-prev-icon, .carousel-control-next-icon {
@@ -62,6 +62,10 @@ body {
 .img_serv {
   width: 100px;
   height: 100px;
+}
+
+.iten {
+  padding-bottom: 50px;
 }
 
 .mapita {
