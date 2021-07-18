@@ -10,6 +10,46 @@ h1{
 	padding: 35px;
 }
 
-.card{
-	border: 5px solid #071C2C;
+.productos{
+	padding-bottom: 15px;
+	border: 2px solid #071C2C;
+	max-height: 64vh;
 }
+
+.img_prod {
+	width: 100%;
+	height: 38vh;
+	
+}
+
+.img_prod img{
+	border:2px solid #071C2C;
+} 
+
+.costados{
+	padding-left: 35px;
+	padding-right: 35px;
+	margin-bottom: 50px;
+}
+
+.descripcion{
+	font-size: 1.2rem !important;
+	& p{
+		font-size: 9rem;
+	}
+}
+
+
+@media (max-width: 576px) {
+
+	.productos{
+		width: 50vw!important;
+	}
+	
+	.img_prod {
+		width: 100%;
+		height: 38vh;
+		
+	}
+}
+
