@@ -66,13 +66,21 @@ body{
   height: 80vh;
 }
 
+.img_serv{
+	width: 100px;
+	height: 100px;
+}
+
+.btn_serv{
+	
+}
 
 .mapita{
 	width: 45%;
 }
 
 .footer{
-	padding-top: 45px;
+	padding-top: 25px;
 	padding-bottom: 15px;
 }
 
@@ -89,9 +97,19 @@ body{
 		height: 60vh;
 	  }
 
+
 	.mapita{
-		width: 60%;
+		width: 85%;
 		min-height: 50vh;
 	}
 
 }
+
+
+@media (min-width: 720px) {
+
+	.cont_servicios{
+		padding-top: 40px;
+	}  
+}
+

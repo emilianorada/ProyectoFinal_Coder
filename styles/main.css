@@ -59,12 +59,17 @@ body {
   height: 80vh;
 }
 
+.img_serv {
+  width: 100px;
+  height: 100px;
+}
+
 .mapita {
   width: 45%;
 }
 
 .footer {
-  padding-top: 45px;
+  padding-top: 25px;
   padding-bottom: 15px;
 }
 
@@ -77,8 +82,14 @@ body {
     height: 60vh;
   }
   .mapita {
-    width: 60%;
+    width: 85%;
     min-height: 50vh;
+  }
+}
+
+@media (min-width: 720px) {
+  .cont_servicios {
+    padding-top: 40px;
   }
 }
 
@@ -168,6 +179,11 @@ forminput {
 
 .fnos {
   padding-bottom: 15px;
+}
+
+.h_hr {
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 /*---------------------------------------------Estilo por defecto para todo el contenido ----------------------------------------------*/
