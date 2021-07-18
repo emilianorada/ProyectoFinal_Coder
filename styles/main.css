@@ -26,6 +26,10 @@ body {
   color: #9ACAEB;
 }
 
+.navbar-toggler {
+  background-color: #9ACAEB;
+}
+
 .row {
   padding-top: 50px;
 }
@@ -60,7 +64,7 @@ body {
 }
 
 .footer {
-  padding-top: 50px;
+  padding-top: 45px;
   padding-bottom: 15px;
 }
 
@@ -158,16 +162,12 @@ forminput {
   }
 }
 
-/*---------------------------------------------Estilo por defecto para todo el contenido ----------------------------------------------*/
-* {
-  padding: 0px;
-  margin: 0px;
-  font-family: 'Arvo', serif;
-}
-
-/*------------------------------------------------------------------------------------------------------------------------------------*/
 .recuadro {
   border: 9px solid #071C2C;
+}
+
+.fnos {
+  padding-bottom: 15px;
 }
 
 /*---------------------------------------------Estilo por defecto para todo el contenido ----------------------------------------------*/
