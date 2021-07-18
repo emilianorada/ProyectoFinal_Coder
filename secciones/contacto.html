@@ -17,138 +17,126 @@
 
 
 <body>
-	  <nav class="navbar  sticky-top navbar-expand-lg navbar-light bg-#071C2C justify-content-end">
-		<div class="container-fluid">
-		  <a class="navbar-brand" href="../index.html">
-			<img src="../imagenes/ghostnetisotipo.png" alt="logo" width="30" height="30" class="d-inline-block align-text-top">  GhostNet
-		</a>
-		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		  </button>
-		  <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-			<ul class="navbar-nav ms-auto ">	 <!--ms-auto (margin start auto, lo manda a la derecha)-->
-			  <li class="nav-item">
-				<a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
-			  </li>
-			  <li class="nav-item">
-				<a class="nav-link active" href="../secciones/nosotros.html">NOSOTROS</a>
-			  </li>
-			  <li class="nav-item">
-				<a class="nav-link" href="../secciones/contacto.html">CONTACTO</a>
-			  </li>
-			  <li class="nav-item">
-				<a class="nav-link" href="../secciones/tienda.html">TIENDA</a>
-			  </li>
-			</ul>
-		</div>
-	  </nav>
+
+	<nav class="navbar  sticky-top navbar-expand-lg navbar-light bg-#071C2C justify-content-end">
+	<div class="container-fluid">
+	  <a class="navbar-brand" href="../index.html">
+		<img src="../imagenes/ghostnetisotipo.png" alt="logo" width="30" height="30" class="d-inline-block align-text-top">  GhostNet
+	</a>
+	  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+		<ul class="navbar-nav ms-auto ">	 <!--ms-auto (margin start auto, lo manda a la derecha)-->
+		  <li class="nav-item">
+			<a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link active" href="../secciones/nosotros.html">NOSOTROS</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="../secciones/contacto.html">CONTACTO</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="../secciones/tienda.html">TIENDA</a>
+		  </li>
+		</ul>
+	</div>
+  </nav>
 	
 	
 	
 	
 
-		<div class="container"> 	<!---->
-			<div class="row">
-				<h3 >Contáctenos</h3>
-				<div class="col-md-7">
-					<div class="well well-sm">
-						<form class="form-horizontal" method="post" action="#">
-							<fieldset>								
-								<br>
-								<div class="form-group">
-									<span class="col-md-1 col-md-offset-2 text-center"></span>
-									<div class="col-md-8">
-										<input id="fname" name="nombre" type="text" placeholder="Nombre" class="form-control">
-									</div>
+	<div class="container"> 	
+		<div class="row">
+			<h3 >Contáctenos</h3>
+			<div class="col-md-7">
+				<div class="well well-sm">
+					<form class="form-horizontal" method="post" action="#">
+						<fieldset>								
+							<br>
+							<div class="form-group">
+								<span class="col-md-1 col-md-offset-2 text-center"></span>
+								<div class="col-md-8">
+									<input id="fname" name="nombre" type="text" placeholder="Nombre" class="form-control">
 								</div>
-						
-								<br>
-								<div class="form-group">
-										<div class="col-md-8">
-										<input id="lname" name="apellido" type="text" placeholder="Apellido" class="form-control">
-									</div>
+							</div>						
+							<br>
+							<div class="form-group">
+								<div class="col-md-8">
+									<input id="lname" name="apellido" type="text" placeholder="Apellido" class="form-control">
 								</div>
-								<br>
-								<div class="form-group">
-										<div class="col-md-8">
-										<input id="email" name="email" type="text" placeholder="E-mail" class="form-control">
-									</div>
+							</div>
+							<br>
+							<div class="form-group">
+								<div class="col-md-8">
+									<input id="email" name="email" type="text" placeholder="E-mail" class="form-control">
 								</div>
-
-								<br>	
-								<div class="form-group">
-										<div class="col-md-8">
-										<input id="phone" name="phone" type="text" placeholder="Telefono" class="form-control">
-										<hr>
-									</div>
+							</div>
+							<br>	
+							<div class="form-group">
+								<div class="col-md-8">
+									<input id="phone" name="phone" type="text" placeholder="Telefono" class="form-control">
+									<hr>
 								</div>
+							</div>
 							
-								<div class="form-group">
-									<span class="col-md-1 col-md-offset-2 text-center"></span>
+							<div class="form-group">
+								<span class="col-md-1 col-md-offset-2 text-center"></span>
 									<div class="col-md-8">
-										<label for="opcionconsulta">Motivo de su consulta  </label><!--El valor del atributo “for” debe ser = al valor del atributo id o name del elemento-->
-										<select name="opcionconsulta" id=opcionconsulta>
-											<option value="Productos">Servicios</option>
-											<option value="Servicios">Productos</option>
-											<option value="Soporte Tecnico">Soporte Tecnico</option>
-										</select> 
-										<hr>
+									<label for="opcionconsulta">Motivo de su consulta  </label><!--El valor del atributo “for” debe ser = al valor del atributo id o name del elemento-->
+									<select name="opcionconsulta" id=opcionconsulta>
+										<option value="Productos">Servicios</option>
+										<option value="Servicios">Productos</option>
+										<option value="Soporte Tecnico">Soporte Tecnico</option>
+									</select> 
+									<hr>
 									</div>
-								</div>
+							</div>
 								<br>
-								<div class="form-group">
-									<span class="col-md-1 col-md-offset-2 text-center"></span>
-									<div class="col-md-8">
-										<textarea class="form-control" id="message" name="message" placeholder="Comentarios" rows="7"></textarea>
-									</div>
+							<div class="form-group">
+								<span class="col-md-1 col-md-offset-2 text-center"></span>
+								<div class="col-md-8">
+									<textarea class="form-control" id="message" name="message" placeholder="Comentarios" rows="7"></textarea>
 								</div>
-		
+							</div>	
 								<br>
-								<div class="form-group">
-									<div class="col-md-8 text-center">
-										<button type="submit" class="btn btn-dark btn-lg">Enviar</button>
-										<input class="btn btn-outline-dark btn-lg" type="reset" value="Resetear formulario">
-									</div>
+							<div class="form-group">
+								<div class="col-md-8 text-center">
+									<button type="submit" class="btn btn-dark btn-lg ">Enviar</button>
+									<input class="btn btn-outline-dark btn-lg bot_reset" type="reset" value="Resetear formulario">
 								</div>
-							</fieldset>
-						</form>
-					</div>
+							</div>
+						</fieldset>
+					</form>
 				</div>
+			</div>
 		
 			
 			<div class="col-md-4">
-				<div class="well well-sm">
-					<br>
-					<br>
-					<br>
-					<br>
-					<p>Telefono 99999999</p>
-					<br>
+				<div class="container datos">
 					<hr>
-					<br>
-					<p>WhatsApp +5499999999</p>
-					<br>
-					<hr>
-					<br>
-					<p>Direccion</p>
-					<br>
-					<hr>
-					<br>
-					<p>correo@electronico</p>
-					<br>
+					<p>Telefono 99999999</p>					
+					<hr>					
+					<p>WhatsApp +5499999999</p>					
+					<hr>					
+					<p>Direccion</p>					
+					<hr>					
+					<p>correo@electronico</p>					
 					<hr>
 			</div>	
 		</div>
 	</div>	
 
 	
-	<a href="https://api.whatsapp.com/send?phone=5195508107&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
+	<a href="https://api.whatsapp.com/send?phone=5491164660788&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20%20" class="float" target="_blank">
 	<i class="fa fa-whatsapp my-float"></i>
 	</a>
 	  
 
 
-	<div class="container" style="padding-top: 60px;">
+	<div class="container footer">
 		<p><a href="terminos.html">Terminos y condiciones</a>			© 2021 GhostNet es una marca registrada y su isologotipo posee Copyright|   </p> 
 	</div>
 
