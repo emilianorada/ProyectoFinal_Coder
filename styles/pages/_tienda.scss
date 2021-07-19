@@ -1,18 +1,10 @@
-/*---------------------------------------------Estilo por defecto para todo el contenido ----------------------------------------------*/
-*{									
-	padding: 0px;
-	margin: 0px;
-	font-family: 'Arvo', serif;
-}/*------------------------------------------------------------------------------------------------------------------------------------*/
-
-
 h1{
 	padding: 35px;
 }
 
 .productos{
 	padding-bottom: 15px;
-	border: 2px solid #071C2C;
+	border: 2px solid $secondary;
 	height: 64vh;
 	
 }
@@ -25,7 +17,7 @@ h1{
 
 .img_prod{
 	img{
-	border:2px solid #071C2C;
+	border:2px solid $secondary;
 	}
 } 
 
@@ -47,7 +39,7 @@ h1{
 	.productos{
 		width: 32vw!important;
 		height: 65vh;
-	}
+		}
 
 	.descripcion{
 		font-size: 1rem !important;

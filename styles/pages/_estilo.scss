@@ -8,29 +8,34 @@
 
 
 body{
-	background-color: #9ACAEB;
+	background-color: $primary;
 }
 
 
 .navbar {
-	background: #071C2C;
+	background: $secondary;
 	
 }
 
 .nav-link{
-	color: #9ACAEB;
+	color: $primary;
 }
 
-.navbar-brand :hover{
-	background-color: #0a447a;
+.nav-item{
+	color: $primary;
+}
+
+.nav-item :hover{
+	color: $hover !important;
 }
 
 .navbar-brand{
-	color: #9ACAEB;
+	color: $primary;
 }
 
+
 .navbar-toggler {
-	background-color: #9ACAEB;
+	background-color: $primary;
   } 
 
 .row{
@@ -39,7 +44,7 @@ body{
 
 
 #carouselExampleIndicators .carousel-control-prev-icon, .carousel-control-next-icon{
-	background-color: #071C2C;
+	background-color: $secondary;
 	border-radius: 50%;
 	width: 40px;
 	height: 40px;
@@ -49,7 +54,7 @@ body{
 
 
 .carousel-item{
-	background-color: #9ACAEB;
+	background-color: $primary;
 	color: white;
 	position: relative;
 	background-position: center;

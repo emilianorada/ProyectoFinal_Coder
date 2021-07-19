@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*---------------------------------------------Estilo por defecto para todo el contenido ----------------------------------------------*/
 * {
   padding: 0px;
@@ -7,7 +8,7 @@
 
 /*------------------------------------------------------------------------------------------------------------------------------------*/
 body {
-  background-color: #9ACAEB;
+  background-color: #9ACAEB !important;
 }
 
 .navbar {
@@ -15,19 +16,23 @@ body {
 }
 
 .nav-link {
-  color: #9ACAEB;
+  color: #9ACAEB !important;
 }
 
-.navbar-brand :hover {
-  background-color: #0a447a;
+.nav-item {
+  color: #9ACAEB !important;
+}
+
+.nav-item :hover {
+  color: #0a447a !important;
 }
 
 .navbar-brand {
-  color: #9ACAEB;
+  color: #9ACAEB !important;
 }
 
 .navbar-toggler {
-  background-color: #9ACAEB;
+  background-color: #9ACAEB !important;
 }
 
 .row {
@@ -43,7 +48,7 @@ body {
 }
 
 .carousel-item {
-  background-color: #9ACAEB;
+  background-color: #9ACAEB !important;
   color: white;
   position: relative;
   background-position: center;
@@ -102,30 +107,6 @@ body {
   }
 }
 
-/*---------------------------------------------Estilo por defecto para todo el contenido ----------------------------------------------*/
-* {
-  padding: 0px;
-  margin: 0px;
-  font-family: 'Arvo', serif;
-}
-
-/*------------------------------------------------------------------------------------------------------------------------------------*/
-body {
-  background-color: #9ACAEB;
-}
-
-.navbar {
-  background: #071C2C;
-}
-
-.nav-link {
-  color: #9ACAEB !important;
-}
-
-.navbar-brand {
-  color: #9ACAEB !important;
-}
-
 /*--------------------------------------------Estilo para formulario ----------------------------------------------------------------*/
 form {
   margin-left: auto;
@@ -170,6 +151,7 @@ forminput {
   padding: 35px;
 }
 
+/*------------------------media queries pestaña contacto-------------------------------------------------------------------------------*/
 @media (max-width: 355px) {
   .bot_reset {
     margin-top: 15px;
@@ -182,6 +164,7 @@ forminput {
   }
 }
 
+/*-------------------------------------------------------------------------------------------------------------------------------------*/
 .recuadro {
   border: 9px solid #071C2C;
 }
@@ -195,14 +178,6 @@ forminput {
   margin-bottom: 15px;
 }
 
-/*---------------------------------------------Estilo por defecto para todo el contenido ----------------------------------------------*/
-* {
-  padding: 0px;
-  margin: 0px;
-  font-family: 'Arvo', serif;
-}
-
-/*------------------------------------------------------------------------------------------------------------------------------------*/
 h1 {
   padding: 35px;
 }
