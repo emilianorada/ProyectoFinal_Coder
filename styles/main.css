@@ -188,6 +188,7 @@ h1 {
   padding: 35px;
 }
 
+/*--------------------------------ESTILOS EXCLUSIVOS PARA PESTAÑA TIENDA-------------------------------------------------------------*/
 .productos {
   padding-bottom: 15px;
   border: 2px solid #071C2C;
@@ -199,11 +200,8 @@ h1 {
   height: 35vh;
 }
 
-.img_prod img {
-  border: 2px solid #071C2C;
-}
-
 .costados {
+  /*"costados" de cada producto*/
   padding-left: 35px;
   padding-right: 35px;
   margin-bottom: 60px;
@@ -211,10 +209,13 @@ h1 {
 }
 
 .descripcion {
+  /*Descripcion de cada producto*/
   font-size: 1.2rem !important;
   padding: 10px;
 }
 
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------MEDIA QUERIES DE PESTAÑA TIENDA-------------------------------------------------------*/
 @media (min-width: 576px) and (max-width: 768px) {
   .productos {
     width: 32vw !important;
@@ -256,4 +257,6 @@ h1 {
     height: 42vh;
   }
 }
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
 /*# sourceMappingURL=main.css.map */

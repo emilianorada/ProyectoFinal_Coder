@@ -1,50 +1,38 @@
 h1{
 	padding: 35px;
 }
-
+/*--------------------------------ESTILOS EXCLUSIVOS PARA PESTAÑA TIENDA-------------------------------------------------------------*/
 .productos{
 	padding-bottom: 15px;
 	border: 2px solid $secondary;
 	height: 64vh;
-	
 }
-
 .img_prod {
 	width: 100%;
-	height: 35vh;
-	
+	height: 35vh;	
 }
-
-.img_prod{
-	img{
-	border:2px solid $secondary;
-	}
-} 
-
-.costados{
+.costados{	/*"costados" de cada producto*/
 	padding-left: 35px;
 	padding-right: 35px;
 	margin-bottom: 60px;
 	height: 64vh;
 }
-
-.descripcion{
+.descripcion{/*Descripcion de cada producto*/
 	font-size: 1.2rem !important;
 	padding: 10px;
-
 }
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
 
 
+/*---------------------------------------------MEDIA QUERIES DE PESTAÑA TIENDA-------------------------------------------------------*/
 @media (min-width: 576px) and (max-width: 768px) {
 	.productos{
 		width: 32vw!important;
 		height: 65vh;
-		}
-
+	}
 	.descripcion{
 		font-size: 1rem !important;
 	}
-
 	.costados{
 		margin-bottom: 50px;
 		max-height: 75vh;
@@ -55,35 +43,27 @@ h1{
 	.img_prod {
 			width: 100%;
 			height: 37vh;
-		}
-		
+		}	
 }
-
-
 @media (max-width: 575px) {
-
 	.productos{
 		width: 75vw!important;
 		height: 70vh;
 		text-align: center;
 	}	
-
 	.descripcion{
 		font-size: 0.9rem !important;
 	}
-
 	.costados{
 		height: 68vh;
-
 		p{
 			font-size: 0.8rem;
-		}
-		
-		}
-		.img_prod {
-			width: 100%;
-			height: 42vh;
-		}
-}
+		}		
+	}
+	.img_prod {
+		width: 100%;
+		height: 42vh;
+	}
+}/*---------------------------------------------------------------------------------------------------------------------------------*/
 
 
