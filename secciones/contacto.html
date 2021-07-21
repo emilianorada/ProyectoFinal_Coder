@@ -4,12 +4,11 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="GhostNet Servicios de Telecomunicaciones">	<!--Descripcion de la pagina-->
+	<meta name="description" content="GhostNet Servicios de Telecomunicaciones"><!--Descripcion de la pagina-->
 	<title>Contacto</title>
 	<link rel="preconnect" href="https://fonts.gstatic.com"><!--Para la fuente-->
 	<link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet"><!--Para la fuente-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> <!--Para el widget de WSP-->
-	
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="../styles/main.css"><!--Linkeo al css-->
@@ -17,15 +16,15 @@
 
 
 <body>
-
+<!--------------------------------------------------NAVBAR------------------------------------------------------------------------------>
 	<nav class="navbar  sticky-top navbar-expand-lg navbar-light bg-#071C2C justify-content-end">
 		<div class="container-fluid">
-		<a class="navbar-brand" href="../index.html">
-			<img src="../imagenes/ghostnetisotipo.png" alt="logo" width="30" height="30" class="d-inline-block align-text-top">  GhostNet
-		</a>
+			<a class="navbar-brand" href="../index.html">
+				<img src="../imagenes/ghostnetisotipo.png" alt="logo" width="30" height="30" class="d-inline-block align-text-top">  GhostNet
+			</a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
-			</button>
+			</button>	<!--Boton para desplegar, cuando la resolucion es pequeña-->
 			<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
 			<ul class="navbar-nav ms-auto ">	 <!--ms-auto (margin start auto, lo manda a la derecha)-->
 			<li class="nav-item">
@@ -43,13 +42,19 @@
 			</ul>
 		</div>
 	</nav>
+<!--------------------------------------------------------------------------------------------------------------------------------------->
 	
+
+
+	<div class="container"> <!--------------------------------CONTENEDOR GLOBAL--------------------------------------------------------->	
 	
-	<div class="container"> 	
 		<div class="row">
+			
 			<h3 >Contáctenos</h3>
-			<div class="col-md-7">
+			<div class="col-md-7"><!--------------------------------COLUMNA IZQUIERDA-------------------------------------------------->
+				
 				<div class="well well-sm">
+					<!---------------------------------------FORMULARIO----------------------------------------------------------------->
 					<form class="form-horizontal" method="post" action="#">
 						<fieldset>								
 							<br>
@@ -77,8 +82,7 @@
 									<input id="phone" name="phone" type="text" placeholder="Telefono" class="form-control">
 									<hr>
 								</div>
-							</div>
-							
+							</div>							
 							<div class="form-group">
 								<span class="col-md-1 col-md-offset-2 text-center"></span>
 									<div class="col-md-8">
@@ -91,14 +95,14 @@
 									<hr>
 									</div>
 							</div>
-								<br>
+							<br>
 							<div class="form-group">
 								<span class="col-md-1 col-md-offset-2 text-center"></span>
 								<div class="col-md-8">
 									<textarea class="form-control" id="message" name="message" placeholder="Comentarios" rows="7"></textarea>
 								</div>
 							</div>	
-								<br>
+							<br>
 							<div class="form-group">
 								<div class="col-md-8 text-center">
 									<button type="submit" class="btn btn-dark btn-lg ">Enviar</button>
@@ -106,13 +110,14 @@
 								</div>
 							</div>
 						</fieldset>
-					</form>
+					</form><!----------------------------------TERMINA FORMULARIO------------------------------------------------------>
 					<br>
 				</div>
-			</div>
+			</div><!---------------------------------TERMINA COLUMNA IZQUIERDA--------------------------------------------------------->
 			
+
 			
-			<div class="col-md-4">
+			<div class="col-md-4"><!---------------------------COLUMNA DERECHA--------------------------------------------------------->
 				<div class="container datos">
 					<hr class="h_hr">
 					<p>Telefono 99999999</p>					
@@ -123,22 +128,25 @@
 					<hr>					
 					<p>correo@electronico</p>					
 					<hr>
-			</div>	
-		</div>
-	</div>	
-
-	
-	<a href="https://api.whatsapp.com/send?phone=5491164660788&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20%20" class="float" target="_blank">
-	<i class="fa fa-whatsapp my-float"></i>
-	</a>
-	  
-
-
-	<div class="container footer">
-		<p><a href="terminos.html">Terminos y condiciones</a>			© 2021 GhostNet es una marca registrada y su isologotipo posee Copyright|   </p> 
-	</div>
-
+				</div>	
+			</div><!-----------------------------------TERMINA COLUMNA DERECHA--------------------------------------------------------->
 		
+		</div><!------------------------------------TERMINA FILA(UNICA)----------------------------------------------------------------->	
+	
+
+		<!---------------------------------------------BOTON FLOTANTE WSP-------------------------------------------------------------->
+		<a href="https://api.whatsapp.com/send?phone=5491164660788&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20%20" class="float" target="_blank">
+			<i class="fa fa-whatsapp my-float"></i>
+		</a><!------------------------------------------------------------------------------------------------------------------------->
+		
+		<!----------------------------------------------FOOTER------------------------------------------------------------------------->
+		<div class="container footer">
+			<p><a href="terminos.html">Terminos y condiciones</a>			© 2021 GhostNet es una marca registrada y su isologotipo posee Copyright|   </p> 
+		</div>
+		<!----------------------------------------------------------------------------------------------------------------------------->
+	
+	
+	</div><!---------------------CIERRE CONTENEDOR GLOBAL------------------------------------------------------------------------------>	
 
 
 	<!-- Optional JavaScript; choose one of the two! -->
