@@ -80,6 +80,18 @@ body{
 
 .anim2 :hover{
 	animation-name: boton;
+	animation-duration: 0.25s;
+}
+
+@keyframes boton{
+	15%{
+		transform: scale(.2);
+	}
+}
+
+
+.anim3 :hover{
+	animation-name: boton;
 	animation-duration: 0.5s;
 }
 

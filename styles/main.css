@@ -102,8 +102,8 @@ body {
 .anim2 :hover {
   -webkit-animation-name: boton;
           animation-name: boton;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  -webkit-animation-duration: 0.25s;
+          animation-duration: 0.25s;
 }
 
 @-webkit-keyframes boton {
@@ -111,6 +111,20 @@ body {
     -webkit-transform: scale(0.2);
             transform: scale(0.2);
   }
+}
+
+@keyframes boton {
+  15% {
+    -webkit-transform: scale(0.2);
+            transform: scale(0.2);
+  }
+}
+
+.anim3 :hover {
+  -webkit-animation-name: boton;
+          animation-name: boton;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
 }
 
 @keyframes boton {
