@@ -76,6 +76,50 @@ body {
   max-height: 65vh;
 }
 
+.anim :hover {
+  -webkit-animation-name: animacion;
+          animation-name: animacion;
+  -webkit-animation-duration: 1.2s;
+          animation-duration: 1.2s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes animacion {
+  15% {
+    -webkit-transform: scale(0.2);
+            transform: scale(0.2);
+  }
+}
+
+@keyframes animacion {
+  15% {
+    -webkit-transform: scale(0.2);
+            transform: scale(0.2);
+  }
+}
+
+.anim2 :hover {
+  -webkit-animation-name: boton;
+          animation-name: boton;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+}
+
+@-webkit-keyframes boton {
+  15% {
+    -webkit-transform: scale(0.2);
+            transform: scale(0.2);
+  }
+}
+
+@keyframes boton {
+  15% {
+    -webkit-transform: scale(0.2);
+            transform: scale(0.2);
+  }
+}
+
 .mapita {
   width: 45%;
   border-radius: 5%;
